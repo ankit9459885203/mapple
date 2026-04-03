@@ -1,7 +1,6 @@
 import axios from "axios"; // instead of fetch we are using axios
 
-// to autoattach  the  token to api
-
+// connecting to backend url
 export const api = axios.create({
   baseURL: "http://localhost:3000/api/v1",
 });
